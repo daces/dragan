@@ -25,13 +25,13 @@ const Tech = () => {
             <img src={wordpress} alt="contentful"/>
             <h4>BUILD</h4>
             <img src={gatsby} alt="contentful"/>
-            <img className="line" style={{transform: "translateX(-320px) rotate(180deg)"}}src={linesImg} alt="line2"/>
+            <img className="line" style={{transform: "translateX(30px) rotate(180deg)"}}src={linesImg} alt="line2"/>
             <img src={netlify} alt="contentful"/>
             <h4>DEPLOY & CDN</h4>
             <img src={cloudflare} alt="contentful"/>
             <img src={nextjs} alt="contentful"/>
             <img src={vercel} alt="contentful"/>
-            <img className="line" style={{transform: "translateX(-280px)  translatey(-150px) rotate(270deg)"}}src={linesImg} alt="line2"/>
+            <img className="line" style={{transform: "translateX(30px) translateY(-120px) rotate(0deg)"}}src={linesImg} alt="line2"/>
             <img src={aws} alt="contentful"/>
 		</Wrap>
 	);
@@ -74,5 +74,6 @@ img {
 }
 .line {
     position: absolute;
+    left: 0;
 }
 `;

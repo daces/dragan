@@ -21,11 +21,11 @@ const MyStoryAbout = () => {
             </Hobby>
             <Hobby className="overlay">
             <Separator/>
-                <img src={walkImg} alt="Dragan waving hands in barcelona mount tibidabo :)" />
+                <img src="/static/long-walks.jpg" alt="Dragan waving hands in barcelona mount tibidabo :)" />
                 <p>I enjoy 40+km walks mostly along the river thames.</p>
             </Hobby>
             <Hobby>
-                <img src={readImg} alt="Reading book in gunsbury park, lovely autumn trees in background :)" />
+                <img src="/static/reading.jpg" alt="Reading book in gunsbury park, lovely autumn trees in background :)" />
                 <p>I love reading books anything psychology, self-improvement & health.</p>
             </Hobby>
 
