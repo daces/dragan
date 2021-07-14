@@ -3,9 +3,9 @@ import styled from 'styled-components';
 
 import overlay from "../images/overlay.svg"
 
-import photoImg from "../../static/photography.jpg"
-import walkImg from "../../static/long-walks.jpg"
-import readImg from "../../static/reading.jpg"
+import photoImg from "/static/photography.jpg"
+import walkImg from "/static/long-walks.jpg"
+import readImg from "/static/reading.jpg"
 const MyStoryAbout = () => {
 	return (
 		<>
