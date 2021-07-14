@@ -3,9 +3,9 @@ import styled from 'styled-components';
 
 import overlay from "../images/overlay.svg"
 
-import photoImg from "./../../src/images/photography.jpg"
-import walkImg from "./../../src/images/long-walks.jpg"
-import readImg from "./../../src/images/reading.jpg"
+import photoImg from "/src/images/photography.jpg"
+import walkImg from "/src/images/long-walks.jpg"
+import readImg from "/images/reading.jpg"
 import { graphql, useStaticQuery } from 'gatsby';
 const MyStoryAbout = () => {
     // const data = useStaticQuery(graphql`
