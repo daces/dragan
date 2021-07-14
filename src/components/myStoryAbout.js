@@ -3,9 +3,9 @@ import styled from 'styled-components';
 
 import overlay from "../images/overlay.svg"
 
-// import photoImg from "/static/photography.jpg"
-// import walkImg from "/static/long-walks.jpg"
-// import readImg from "/static/reading.jpg"
+import photoImg from "./../../src/images/photography.jpg"
+import walkImg from "./../../src/images/long-walks.jpg"
+import readImg from "./../../src/images/reading.jpg"
 import { graphql, useStaticQuery } from 'gatsby';
 const MyStoryAbout = () => {
     // const data = useStaticQuery(graphql`
@@ -16,16 +16,16 @@ const MyStoryAbout = () => {
 		<>
 			<Work>Now I design and develop beautiful websites which focus on providing the best experience for everyone using them, ensuring they are easy for your team to edit while also delivering the best experience for your users.</Work>
             <Hobby>
-                <img src="/static/photography.jpg" alt="enjoying capturing beautiful moments here on earth :)" />
+                <img src={photoImg} alt="enjoying capturing beautiful moments here on earth :)" />
                 <p>I often find my self taking snapshots of places, people, food etc @discoverfeelings</p>
             </Hobby>
             <Hobby className="overlay">
             <Separator/>
-                <img src="/static/long-walks.jpg" alt="Dragan waving hands in barcelona mount tibidabo :)" />
+                <img src={walkImg} alt="Dragan waving hands in barcelona mount tibidabo :)" />
                 <p>I enjoy 40+km walks mostly along the river thames.</p>
             </Hobby>
             <Hobby>
-                <img src="/static/reading.jpg" alt="Reading book in gunsbury park, lovely autumn trees in background :)" />
+                <img src={readImg} alt="Reading book in gunsbury park, lovely autumn trees in background :)" />
                 <p>I love reading books anything psychology, self-improvement & health.</p>
             </Hobby>
 
