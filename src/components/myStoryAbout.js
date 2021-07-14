@@ -3,15 +3,20 @@ import styled from 'styled-components';
 
 import overlay from "../images/overlay.svg"
 
-import photoImg from "/static/photography.jpg"
-import walkImg from "/static/long-walks.jpg"
-import readImg from "/static/reading.jpg"
+// import photoImg from "/static/photography.jpg"
+// import walkImg from "/static/long-walks.jpg"
+// import readImg from "/static/reading.jpg"
+import { graphql, useStaticQuery } from 'gatsby';
 const MyStoryAbout = () => {
+    // const data = useStaticQuery(graphql`
+    
+    
+    // `)
 	return (
 		<>
 			<Work>Now I design and develop beautiful websites which focus on providing the best experience for everyone using them, ensuring they are easy for your team to edit while also delivering the best experience for your users.</Work>
             <Hobby>
-                <img src={photoImg} alt="enjoying capturing beautiful moments here on earth :)" />
+                <img src="/static/photography.jpg" alt="enjoying capturing beautiful moments here on earth :)" />
                 <p>I often find my self taking snapshots of places, people, food etc @discoverfeelings</p>
             </Hobby>
             <Hobby className="overlay">
