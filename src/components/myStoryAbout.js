@@ -5,9 +5,9 @@ import overlay from "../images/overlay.svg"
 
 
 
-import photoImg from "/src/images/photography.jpg"
-import walkImg from "/src/images/long-walks.jpg"
-import readImg from "/src/images/reading.jpg"
+import photoImg from "/src/images/photography.JPG"
+import walkImg from "/src/images/long-walks.JPG"
+import readImg from "/src/images/reading.JPG"
 const MyStoryAbout = () => {
     // const data = useStaticQuery(graphql`
     
