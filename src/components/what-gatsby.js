@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-
+import { StaticImage } from 'gatsby-plugin-image';
 import useMedia from '../defaults/useMedia';
 
-import svgImg from '/src/images/gatsbyjs-logo.svg';
+// import svgImg from '/src/images/gatsbyjs-logo.svg';
 import bgImg from '/src/images/rect.svg';
 import linesImg from '/src/images/lines.svg';
 import { media } from '../defaults/media';
@@ -27,6 +27,7 @@ const WhatGatsby = () => {
 			<What />
 			<Title>Freelance Gatsby developer</Title>
 			<Image>
+					<StaticImage src='/src/images/gatsbyjs-logo.svg' width={150} alt="gatsby logo" />
 				{/* <img src={svgImg} width={150} alt="gatsby logo" /> */}
 			</Image>
 
