@@ -133,7 +133,7 @@ export default Header;
 const Head = styled.header`
 	margin-bottom: 5.5em;
 	grid-column: col-start / span 12;
-	background: url(${svgImg});
+	// background: url(${svgImg});
 	background-position: top;
 	background-repeat: no-repeat;
 	background-size: 170%;
