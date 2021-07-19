@@ -6,7 +6,7 @@ import loadable from '@loadable/component'
 import Layout from "../components/layouts/layout";
 
 import Navigation from "../components/nav/navigation";
-// import Header from "../components/header";
+import Header from "../components/header";
 //import WhatGatsby from "../components/what-gatsby";
 // import Process from "../components/process";
 //import Button from "../components/buttons/button";
@@ -14,7 +14,7 @@ import Navigation from "../components/nav/navigation";
 // import Portfolio from "../components/portfolio";
 // import Contact from "../components/contact";
 
-const LoadHeader = loadable(() => import('../components/header'))
+// const LoadHeader = loadable(() => import('../components/header'))
 const LoadWhatGatsby = loadable(() => import('../components/what-gatsby'))
 const LoadProcess = loadable(() => import('../components/process'))
 const LoadTech = loadable(() => import('../components/tech'))
@@ -27,7 +27,7 @@ const Index = () => {
 			<Layout title="Freelance Gatsby web developer in London" />
 
 			<Navigation />
-			<LoadHeader />
+			<Header />
 			<LoadWhatGatsby />
 			<LoadProcess />
 			<LoadTech />

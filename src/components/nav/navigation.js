@@ -8,7 +8,7 @@ import Button from '../buttons/button';
 import useMedia from '../../defaults/useMedia';
 import { assets } from '../../defaults/assets';
 
-const navItems = ['My Story', 'projects', 'contact'];
+const navItems = ["Home", 'My Story', 'projects', 'contact'];
 
 const Navigation = () => {
 	const [menuStatus, setMenuStatus] = useState('closed');
