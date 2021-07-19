@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import loadable from '@loadable/component'
+// import loadable from '@loadable/component'
 // import Particles from 'react-particles-js';
 
 import Layout from "../components/layouts/layout";

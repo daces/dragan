@@ -27,7 +27,7 @@ const WhatGatsby = () => {
 			<What />
 			<Title>Freelance Gatsby developer</Title>
 			<Image>
-				<img src={svgImg} width={150} alt="gatsby logo" />
+				{/* <img src={svgImg} width={150} alt="gatsby logo" /> */}
 			</Image>
 
 			<Content className="content">
