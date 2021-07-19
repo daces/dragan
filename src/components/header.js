@@ -9,7 +9,7 @@ import { assets } from '../defaults/assets';
 const Header = () => {
 	return (
 		<Head>
-			<Particles
+			{/* <Particles
 				id="tsparticles"
 				options={{
 					background: {
@@ -110,7 +110,7 @@ const Header = () => {
 						},
 					},
 				}}
-			/>
+			/> */}
 				{ useMedia('(min-width: 768px)') ? 
 			<Title>
 				Want to get <Hi>more visits</Hi>
