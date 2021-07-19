@@ -28,8 +28,6 @@ const WhatGatsby = () => {
 			<Title>Freelance Gatsby developer</Title>
 			<Image>
 					<StaticImage src='../images/gatsbyjs-logo.svg' width={150} alt="gatsby logo" />
-					<StaticImage src='../src/images/gatsbyjs-logo.svg' width={150} alt="gatsby logo" />
-					<StaticImage src='./src/images/gatsbyjs-logo.svg' width={150} alt="gatsby logo" />
 				{/* <img src={svgImg} width={150} alt="gatsby logo" /> */}
 			</Image>
 

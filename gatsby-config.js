@@ -31,7 +31,7 @@ module.exports = {
 		],
 	},
 	plugins: [
-		// "@loadable/babel-plugin",
+		"@loadable/babel-plugin",
 		'styled-components',
 		'@emotion/core',
 		'@emotion/react',
