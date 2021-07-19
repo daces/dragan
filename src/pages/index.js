@@ -25,6 +25,19 @@ const Index = () => {
 	return (
 		<>
 		<Grid>
+			<Layout title="Freelance Gatsby web developer in London" />
+
+			<Navigation />
+			<Header />
+			<WhatGatsby />
+			<Process/>
+			<Tech />
+			<Portfolio/>
+			{/* <LoadWhatGatsby /> */}
+			{/* <LoadProcess />
+			<LoadTech />
+			<LoadPortfolio /> */}
+		
 		<LoadParticles
 				id="tsparticles"
 				options={{
@@ -127,19 +140,6 @@ const Index = () => {
 					},
 				}}
 			/> 
-			<Layout title="Freelance Gatsby web developer in London" />
-
-			<Navigation />
-			<Header />
-			<WhatGatsby />
-			<Process/>
-			<Tech />
-			<Portfolio/>
-			{/* <LoadWhatGatsby /> */}
-			{/* <LoadProcess />
-			<LoadTech />
-			<LoadPortfolio /> */}
-		
 		</Grid>
 		{/* <LoadContact /> */}
 		<Contact/>
