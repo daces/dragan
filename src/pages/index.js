@@ -5,21 +5,21 @@ import styled from "styled-components";
 
 import Layout from "../components/layouts/layout";
 
+//import Button from "../components/buttons/button";
 import Navigation from "../components/nav/navigation";
 import Header from "../components/header";
 import WhatGatsby from "../components/what-gatsby";
-import Process from "../components/process";
-//import Button from "../components/buttons/button";
-import Tech from "../components/tech";
-import Portfolio from "../components/portfolio";
-import Contact from "../components/contact";
+// import Process from "../components/process";
+// import Tech from "../components/tech";
+// import Portfolio from "../components/portfolio";
+// import Contact from "../components/contact";
 
 // const LoadHeader = loadable(() => import('../components/header'))
 // const LoadWhatGatsby = loadable(() => import('../components/what-gatsby'))
-// const LoadProcess = loadable(() => import('../components/process'))
-// const LoadTech = loadable(() => import('../components/tech'))
-// const LoadPortfolio  = loadable(() => import('../components/portfolio'))
-// const LoadContact = loadable(() => import('../components/contact'))
+const LoadProcess = loadable(() => import('../components/process'))
+const LoadTech = loadable(() => import('../components/tech'))
+const LoadPortfolio  = loadable(() => import('../components/portfolio'))
+const LoadContact = loadable(() => import('../components/contact'))
 const Index = () => {
 	return (
 		<>
@@ -29,17 +29,17 @@ const Index = () => {
 			<Navigation />
 			<Header />
 			<WhatGatsby />
-			<Process/>
+			{/* <Process/>
 			<Tech />
-			<Portfolio/>
-			{/* <LoadWhatGatsby />
+			<Portfolio/> */}
+			{/* <LoadWhatGatsby /> */}
 			<LoadProcess />
 			<LoadTech />
-			<LoadPortfolio /> */}
+			<LoadPortfolio />
 		
 		</Grid>
-		{/* <LoadContact /> */}
-		<Contact/>
+		<LoadContact />
+		{/* <Contact/> */}
 		</>
 	);
 };
