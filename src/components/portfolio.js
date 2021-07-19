@@ -1,19 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
-
+import { StaticImage } from 'gatsby-plugin-image';
 import linesImg from '/src/images/lines.svg';
 
 // import projectImg1 from "../images/project1.png"
 // import projectImg2 from "../images/project2.png"
-import projectImg1 from "../images/project1.jpg"
-import projectImg2 from "../images/project2.jpg"
+// import projectImg1 from "../images/project1.jpg"
+// import projectImg2 from "../images/project2.jpg"
 import { media } from '../defaults/media';
 const Portfolio = () => {
 	return (
 		<Wrap>
             <h2>Projects</h2>
             <div>
-                <LeftCol><img src={projectImg2} alt="project 2" /></LeftCol>
+                <LeftCol><StaticImage src="../images/project2.jpg" alt="project 2" /></LeftCol>
                 <RightCol>
                     <h4>Web Design</h4>
                     <h2>Andy hall website</h2>
@@ -27,7 +27,7 @@ const Portfolio = () => {
 
 
             <div>
-                <LeftCol><img src={projectImg1} alt="project 1" /></LeftCol>
+                <LeftCol><StaticImage src="../images/project1.jpg" alt="project 1" /></LeftCol>
                 <RightCol>
                     <h4>Web Design</h4>
                     <h2>Portfolio Site</h2>
