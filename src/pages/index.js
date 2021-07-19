@@ -3,7 +3,7 @@ import styled from "styled-components";
 // import loadable from '@loadable/component'
 // import Particles from 'react-particles-js';
 
-import Particles from 'react-tsparticles';
+// import Particles from 'react-tsparticles';
 import Layout from "../components/layouts/layout";
 
 //import Button from "../components/buttons/button";
@@ -15,7 +15,7 @@ import Tech from "../components/tech";
 import Portfolio from "../components/portfolio";
 import Contact from "../components/contact";
 
-// const LoadHeader = loadable(() => import('../components/header'))
+const LoadParticles = loadable(() => import('react-tsparticles'))
 // const LoadWhatGatsby = loadable(() => import('../components/what-gatsby'))
 // const LoadProcess = loadable(() => import('../components/process'))
 // const LoadTech = loadable(() => import('../components/tech'))
@@ -25,7 +25,7 @@ const Index = () => {
 	return (
 		<>
 		<Grid>
-		<Particles
+		<LoadParticles
 				id="tsparticles"
 				options={{
 					background: {
