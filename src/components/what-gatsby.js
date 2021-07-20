@@ -93,7 +93,7 @@ const What = styled.div`
 		left: -20px;
 		right: -20px;
 		height: 130vh;
-		z-index: -1;
+		z-index: 0;
 		background: url(${bgImg});
 		background-position: top;
 		background-repeat: repeat;
