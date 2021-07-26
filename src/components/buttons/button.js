@@ -1,8 +1,18 @@
-import React from 'react';
-import styled from 'styled-components';
-import { colors } from '../../defaults/styles';
+import React from "react";
+import styled from "styled-components";
+import { colors } from "../../defaults/styles";
 const Button = (PropTypes) => {
-	return <ButtonBtn href={PropTypes.link}>{PropTypes.children}</ButtonBtn>;
+	function sendAW() {
+		typeof window !== "undefined" &&
+			window.gtag("event", "conversion", {
+				send_to: "AW-927257258/rGiTCPWplt0CEKqlk7oD",
+			});
+	}
+	return (
+		<ButtonBtn href={PropTypes.link} onClick={() => sendAW()}>
+			{PropTypes.children}
+		</ButtonBtn>
+	);
 };
 export default Button;
 const ButtonBtn = styled.a`

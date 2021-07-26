@@ -1,8 +1,8 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
-import '@fontsource/open-sans'; // Defaults to weight 400.
-import '@fontsource/open-sans/800.css'; // Weight 500.
-import GlobalCss from '../../globalStyles/style';
+import React from "react";
+import { Helmet } from "react-helmet";
+import "@fontsource/open-sans"; // Defaults to weight 400.
+import "@fontsource/open-sans/800.css"; // Weight 500.
+import GlobalCss from "../../globalStyles/style";
 
 const Layout = ({ title }) => {
 	return (
@@ -14,7 +14,7 @@ const Layout = ({ title }) => {
 				<link rel="preconnect" href="https://p.typekit.net" />
 
 				<meta charSet="utf-8" />
-				<meta name="viewport" content="width=device-width, initial-scale=1"/>
+				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				{/* <meta name="viewport" content="initial-scale=1.0, width=device-width" /> */}
 				<title>{title}</title>
 
@@ -28,6 +28,10 @@ const Layout = ({ title }) => {
 				<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#fff" />
 
 				{/* Hosted webfonts because I can’t self-host Mallory 😭 */}
+				{/* <script>
+				gtag('event', 'conversion', {'send_to': 'AW-927257258/rGiTCPWplt0CEKqlk7oD'});
+
+				</script> */}
 			</Helmet>
 			<GlobalCss />
 		</>
